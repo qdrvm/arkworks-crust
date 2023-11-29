@@ -1,5 +1,5 @@
 [package]
-name = "ec_crypto_crust"
+name = "artworks_crust"
 version = "0.4.0"
 description = "Host functions for common Arkworks elliptic curve operations"
 license = "Apache-2.0"

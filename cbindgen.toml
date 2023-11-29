@@ -1,5 +1,5 @@
 autogen_warning = "/* THIS FILE WAS AUTOMATICALLY GENERATED. DO NOT EDIT. */"
-include_guard = "_NOVELPOLY_REED_SOLOMON_CRUST_INCLUDE_GUARD_H_"
+include_guard = "_ARKWORKS_CRUST_INCLUDE_GUARD_"
 include_version = true
 line_length = 80
 tab_width = 2

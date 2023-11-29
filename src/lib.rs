@@ -66,7 +66,7 @@ impl BytesVec {
 
 #[allow(unused_attributes)]
 #[no_mangle]
-pub unsafe extern "C" fn ECCC_deallocate_bytesvec(data: *mut BytesVec) {
+pub unsafe extern "C" fn AWCR_deallocate_bytesvec(data: *mut BytesVec) {
     debug_assert!(!data.is_null());
     debug_assert!(!(*data).data.is_null());
     drop(Box::from_raw((*data).data));
