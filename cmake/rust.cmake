@@ -24,6 +24,7 @@ set(arkworks_h_dir ${include_path}/arkworks)
 ### setup tasks
 add_custom_target(
     cargo_build
+    ALL
     COMMAND cargo build --target-dir ${CMAKE_BINARY_DIR} ${release_option}
     WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}
 )
@@ -58,8 +59,6 @@ set_target_properties(arkworks_crust PROPERTIES
     IMPORTED_LOCATION ${lib}
     )
 add_dependencies(arkworks_crust cargo_build)
-
-set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 file(MAKE_DIRECTORY ${arkworks_h_dir})
 

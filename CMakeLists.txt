@@ -6,8 +6,6 @@ if (CCACHE_FOUND)
   set_property(GLOBAL PROPERTY RULE_LAUNCH_LINK ccache)
 endif (CCACHE_FOUND)
 
-set_property(GLOBAL PROPERTY USE_FOLDERS ON)
-
 option(TESTING "Enable tests" OFF)
 option(BENCHMARK "Enable benchmark" OFF)
 
@@ -34,7 +32,7 @@ if (NOT EXISTS "${CMAKE_TOOLCHAIN_FILE}")
   set(CMAKE_POSITION_INDEPENDENT_CODE TRUE)
 endif ()
 
-add_subdirectory(src-cpp)
+add_subdirectory(arkworks-cpp)
 
 if (TESTING)
   enable_testing()
