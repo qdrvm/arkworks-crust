@@ -28,3 +28,7 @@ std = [
 
 [build-dependencies]
 cbindgen = "0.26.0"
+
+[lib]
+name = "artworks_crust"
+crate-type = ["cdylib", "staticlib"]
