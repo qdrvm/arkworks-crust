@@ -1,5 +1,5 @@
 [package]
-name = "artworks_crust"
+name = "arkworks_crust"
 version = "0.4.0"
 description = "Host functions for common Arkworks elliptic curve operations"
 license = "Apache-2.0"
@@ -30,5 +30,5 @@ std = [
 cbindgen = "0.26.0"
 
 [lib]
-name = "artworks_crust"
+name = "arkworks_crust"
 crate-type = ["cdylib", "staticlib"]

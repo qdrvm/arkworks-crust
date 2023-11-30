@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "../include/artworks_crust.h"
+#include "../include/arkworks_crust.h"
 
 namespace arkworks {
 
